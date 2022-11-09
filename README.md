@@ -1,4 +1,9 @@
-# app
+# Movie Lister
+
+- Generates tsv file with random data that a movie might have
+- nginx serves the file
+- Vue frontend consumes that file and lists the movies
+- You can sort and filter the data using several parameters
 
 data file is included already to simplify
 
