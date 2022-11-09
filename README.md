@@ -1,13 +1,10 @@
 # Movie Lister
 
-- Generates tsv file with random data that a movie might have
-- nginx serves the file
+- data/generator.py generates a tsv file with random data that a movie might have
+- a data file is included already to simplify the process
+- nginx serves the data file and the VueJS frontend
 - Vue frontend consumes that file and lists the movies
 - You can sort and filter the data using several parameters
-
-data file is included already to simplify
-
-You can find the data generator script in data/generator.py
 
 ```
 docker build . -t movie-lister
